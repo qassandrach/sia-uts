@@ -1,0 +1,228 @@
+#wrapper {
+	margin: auto;
+	width: 1000px;	
+	height: auto;
+	background-color: transparent;
+}
+
+body {
+
+    font-family: Chronicle Display A,Chronicle Display B,Times New Roman,serif,Microsoft Yahei;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #000;
+
+}
+
+#wrapper #banner {
+	width: 100%;
+}
+
+#wrapper #footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+   color: white;
+   text-align: center;
+}
+
+ a {
+	color: white;
+	text-decoration:none
+	}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+#wrapper #ct-kiri {
+	float: left;
+	height: auto;
+	width: 100px;
+	background-color: transparent;	
+}
+
+#wrapper #ct-kanan {
+	float: right;
+	height: auto;
+	width: 500px;
+	background-color: transparent;
+}
+
+#wrapper #pemisah {
+	float: left;
+	height: auto;
+	width: 1px;
+	background-color: #999999;
+	margin: 5px 0px 0px 20px;	
+	padding: 0px 0px 0px 0px;	
+}
+
+#wrapper #clear {
+	float: left;
+	height: 30px;
+	width: 1000px;
+	background-color: tranparent;
+	margin: 2px 0 0 0;	
+}
+
+.mainContent {
+    width: 35%;
+    margin: 2.5em auto;
+    background: #fff;
+    padding: 2.5em;
+}
+.contactFrm h4 {
+    font-size: 1em;
+    color: #252525;
+    margin-bottom: 0.5em;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+.contactFrm input[type="text"], .contactFrm input[type="email"] {
+    width: 70%;
+    outline: none;
+    font-size: 0.9em;
+    padding: .7em 1em;
+    border: 1px solid #000;
+    -webkit-appearance: none;
+    display: block;
+    margin-bottom: 1.2em;
+}
+.contactFrm textarea {
+    resize: none;
+    width: 93.5%;
+    font-size: 0.9em;
+    outline: none;
+    padding: .6em 1em;
+    border: 1px solid #000;
+    min-height: 10em;
+    -webkit-appearance: none;
+}
+.contactFrm input[type="submit"] {
+    outline: none;
+    color: #FFFFFF;
+    padding: 0.5em 0;
+    font-size: 1em;
+    margin: 1em 0 0 0;
+    -webkit-appearance: none;
+    background: #006faa;
+    transition: 0.5s all;
+    border: 2px solid #006faa;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    width: 47%;
+    cursor: pointer;
+}
+.contactFrm input[type="submit"]:hover {
+    background: none;
+    color: #006faa;
+}
+
+p.statusMsg{font-size:18px;}
+p.succdiv{color: #008000;}
+p.errordiv{color:#E80000;}
+
+.contactkanan
+{
+  position: relative;
+  bottom: 170px;
+  left: 600px;
+  width: 300px;
+  font-size : 15px;
+}
+
+.contactkiri
+{
+  position: relative;
+  bottom: 18px;
+  right: 1px;
+  width: 300px;
+  font-size : 15px;
+}
+
+.aboutus
+{
+  position: relative;
+  bottom: 0px;
+  right: 1px;
+  width: 300px;
+  font-size : 15px;
+}
+@media screen and (max-width: 1080px) {
+	
+	.wrapper {
+		width: 100%;
+	}
+	
+	#wrapper #banner {
+		width: auto;
+	}
+	#wrapper #ct-kiri {
+		width: 100%;
+	}
+	#wrapper #pemisah {
+		width: 100%;
+		float: right;
+	}
+	
+	#wrapper #ct-kanan {
+		clear: both;
+		padding: 1% 4%;
+		width: 100%;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	
+	.wrapper {
+		width: 100%;
+	}
+	.header, 
+	.footer{
+		text-align: center;
+	}
+	#wrapper #banner {
+		width: auto;
+	}
+	
+	#wrapper #ct-kiri {
+		width: auto;
+		float: none;
+	}
+	
+	#wrapper #pemisah {
+		width: auto;
+		float: none;
+	}
+	
+	#wrapper #ct-kanan {
+		width: auto;
+		float: none;
+	}
+
+}
